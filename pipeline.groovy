@@ -1,6 +1,6 @@
 pipeline{
   
-  agent dockerContainer
+  agent docker
 
   stages{
     stage ("Env setup"){
